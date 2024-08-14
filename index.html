@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Formación Virtual | Bienvenida</title>
+        <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+      </head>
+      <body>
+        <header class="header">
+            <h1>
+              <img src="images/logo.png" alt="Logo">
+            </h1>
+          </header>
+          <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#quienes-somos">Quiénes Somos</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#tarifas">Tarifas</a>
+            <a href="#localizacion">Localización</a>
+          </nav>
+          <section id="quienes-somos" class="content who">
+            <h2 class="title">Quiénes Somos</h2>
+            <p>En Atlasoft, somos un equipo apasionado de desarrolladores y profesionales de la tecnología, dedicados a ofrecer soluciones de software innovadoras y personalizadas. Fundada en el corazón de El Salvador, nuestra empresa se enorgullece de contribuir al crecimiento tecnológico de la región, brindando servicios que van desde el desarrollo de aplicaciones móviles y web hasta la implementación de sistemas empresariales y consultoría tecnológica.</p>
+            <p>Creemos en la importancia de la calidad, la creatividad y la satisfacción del cliente, lo que nos impulsa a superar las expectativas en cada proyecto.</p>
+          </section>
+          <section id="servicios" class="content services">
+            <h2 class="title">Servicios</h2>
+            <p>En Atlasoft, ofrecemos una amplia gama de servicios de software diseñados para satisfacer las necesidades tecnológicas de nuestros clientes. Nos especializamos en la creación de herramientas de software para desktop, aplicaciones móviles intuitivas y eficientes, así como soluciones web personalizadas. Además, brindamos servicios de consultoría tecnológica, integración de sistemas empresariales y soporte técnico, asegurándonos de que cada proyecto se desarrolle con la más alta calidad y cumpla con los objetivos específicos de nuestros clientes.</p>
+            <ul class="list-services">
+              <li>
+                <figure>
+                  <img src="images/ico1.png" alt="Angular">
+                  <figcaption>Angular</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="images/ico2.png" alt="React">
+                  <figcaption>React</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="images/ico3.png" alt="Vuejs">
+                  <figcaption>Vuejs</figcaption>
+                </figure>
+              </li>
+            </ul>
+          </section>
+          <section id="tarifas" class="content tarifas">
+            <article class="contain">
+              <h2 class="title">Tarifas</h2>
+              <p>En Atlasoft, ofrecemos tarifas competitivas y flexibles para el desarrollo de páginas web y aplicaciones móviles, adaptándonos a las necesidades y presupuestos de nuestros clientes. Para proyectos de páginas web, nuestras tarifas comienzan desde $500 para sitios básicos de hasta cinco páginas, incluyendo diseño responsivo y optimización básica para motores de búsqueda. Para sitios web más complejos, con características avanzadas como tiendas en línea, sistemas de gestión de contenido o integración de API, los precios pueden oscilar entre $1,500 y $5,000, dependiendo del alcance y las especificaciones del proyecto.</p>
+              <p>En cuanto al desarrollo de aplicaciones móviles, nuestros precios varían según la plataforma y las funcionalidades requeridas. Las aplicaciones básicas, con funcionalidades estándar y diseño intuitivo, tienen un costo inicial de $1,000 por plataforma (iOS o Android). Para aplicaciones más complejas, que incluyan características avanzadas como integración de bases de datos, servicios en la nube, notificaciones push y autenticación de usuarios, las tarifas pueden oscilar entre $3,000 y $10,000. Además, ofrecemos paquetes de mantenimiento y actualización continua para asegurar que tu aplicación se mantenga actualizada y segura en todo momento.</p>
+              <a href="#contacto" class="btn">Contáctanos</a>
+            </article>
+          </section>
+          <section id="opiniones" class="content opiniones">
+            <h2 class="title">Opiniones</h2>
+            <div class="opinion-box">
+              <blockquote>
+                <p>"Formación Virtual ha transformado nuestra manera de trabajar con su increíble equipo y servicios."</p>
+                <cite>- Juan Pérez, CEO de Empresa X</cite>
+              </blockquote>
+            </div>
+            <div class="opinion-box">
+              <blockquote>
+                <p>"La dedicación y profesionalismo de Formación Virtual es inigualable. ¡Altamente recomendado!"</p>
+                <cite>- María García, CTO de Empresa Y</cite>
+              </blockquote>
+            </div>
+          </section>
+          <section id="localizacion" class="content localization">
+            <h2 class="title">Localización</h2>
+            <p>Puedes encontrar nuestras oficinas en Plaza Presidente, click en el mapa para mas detalles!</p>
+            <div id="map"></div>
+            <h3>Formulario de Contacto</h3>
+            <form id="contacto" action="enviar_formulario.php" method="POST">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </section>
+          <footer class="footer">
+            <p>&copy; 2024 Fazt. Todos los derechos reservados.</p>
+            <nav class="footer-nav">
+              <a href="#inicio">Inicio</a>
+              <a href="#quienes-somos">Quiénes Somos</a>
+              <a href="#servicios">Servicios</a>
+              <a href="#tarifas">Tarifas</a>
+              <a href="#localizacion">Localización</a>
+              <a href="#contacto">Contacto</a>
+            </nav>
+          </footer>
+    </body>
+</html>
